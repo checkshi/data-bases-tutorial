@@ -14,11 +14,12 @@ This repository contains a minimal Flask guestbook that writes submissions to a 
    ```
 
 ## Run the app locally
+This app is intended to run on your own machine; there is no hosted version. From the repository root:
 1. Start the Flask server (use `python3` if your system defaults `python` to Python 2):
    ```bash
    python3 app.py
    ```
-2. Open the app in your browser at [http://localhost:5000](http://localhost:5000).
+2. In a browser on the same machine, visit [http://localhost:5000](http://localhost:5000).
 
 On first start, a `data.db` file is created in the repository root with a `guests` table. Submissions are stored there and immediately displayed below the form.
 
